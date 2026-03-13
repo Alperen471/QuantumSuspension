@@ -1,0 +1,9 @@
+RMS Body Acceleration: Büyürse yolcular daha fazla sarsılır, konfor düşer. 1m/s^2'nin altı çok iyi
+Max Absolute Body Acceleration: Sistemin gördüğü en büyük sarsıntı. Ani şoklar ve sert yol darbeleri ile ilgili. Düşük olması iyi
+Max Absolute Body Acceleration: Tekerleğin ivmesidir. Yol tutuşu ile ilgilidir. Tekerlek çok zıplarsa yol ile temas azalır, fren performansı düşer, araç kontrolü zorlaşır
+RMS Control Force: Actuator'ün uyguladığı kuvvetin RMS değeri. Aktif kontrolcüde 1000-2000N olması beklenir.
+RMS Suspension Deflection: Yayın ne kadar sıkıştığıdır. Eğer bu değer büyürse araç dengesizleşir.
+RMS Tire Deflection: Tekerin yol yüzeyini ne kadar iyi takip ettiğidir. Değer küçük olursa iyi yol tutuşu vardır.
+Total PSD Energy: Body acceleration sinyalinin tüm frekanslardaki titreşim enerjisidir. Düşük olması iyidir.
+1–3 Hz Band Energy: İnsan konfor metriği gibi düşünülebilir. Değer düşerse yolcular daha az rahatsız olur.
+Dominant Frequency: Titreşim enerjisinin en yoğun olduğu frekanstır.
