@@ -1,5 +1,6 @@
 import numpy as np
 from scipy.signal import welch
+from analysis.iso2631_metrics import compute_iso2631_weighted_metrics
 
 
 def band_energy(freqs, psd, f_low, f_high):
@@ -50,6 +51,8 @@ def compute_frequency_domain_metrics(results: dict, dt: float) -> dict:
     band_0_5_5_energy = band_energy(freqs, psd, 0.5, 5.0)
     dom_freq = dominant_frequency(freqs, psd)
 
+    iso_metrics = compute_iso2631_weighted_metrics(freqs, psd)
+
     return {
         "psd_freqs": freqs,
         "psd_body_acc": psd,
@@ -57,4 +60,6 @@ def compute_frequency_domain_metrics(results: dict, dt: float) -> dict:
         "band_1_3Hz_energy": band_1_3_energy,
         "band_0_5_5Hz_energy": band_0_5_5_energy,
         "dominant_frequency": dom_freq,
+        "iso_weighted_rms_body_acc": iso_metrics["iso_weighted_rms_body_acc"],
+        "iso_weighting": iso_metrics["iso_weighting"],
     }
