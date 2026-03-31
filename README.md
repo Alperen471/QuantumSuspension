@@ -1,0 +1,1 @@
+# KuantumS-spansiyon

@@ -1,0 +1,34 @@
+{
+  "random": {
+    "ref_rms": 2.26852612323431,
+    "ref_rms_std": 0.5623327394817651,
+    "model_rms_mean": 2332.791519165039,
+    "model_rms_std": 868.2375457623106,
+    "improvement_pct": -102732.91407899257,
+    "n_segments": 96
+  },
+  "sinusoidal": {
+    "ref_rms": 0.7527280273308412,
+    "ref_rms_std": 0.21158075905942852,
+    "model_rms_mean": 530.4209873816546,
+    "model_rms_std": 413.11164898502693,
+    "improvement_pct": -70366.48565252937,
+    "n_segments": 102
+  },
+  "bump": {
+    "ref_rms": 1.666594762440122,
+    "ref_rms_std": 0.44267772877375566,
+    "model_rms_mean": 1245.9386536916097,
+    "model_rms_std": 564.09129743719,
+    "improvement_pct": -74659.54453783267,
+    "n_segments": 120
+  },
+  "pothole": {
+    "ref_rms": 2.025618365601205,
+    "ref_rms_std": 0.5460734468799163,
+    "model_rms_mean": 2373.212637765067,
+    "model_rms_std": 973.9570669927228,
+    "improvement_pct": -117059.90919447929,
+    "n_segments": 42
+  }
+}

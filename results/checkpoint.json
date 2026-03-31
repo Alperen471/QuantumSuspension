@@ -1,0 +1,25 @@
+{
+  "done": [
+    "rl_baseline_bump_42",
+    "rl_baseline_random_42",
+    "rl_baseline_random_43",
+    "rl_fuzzy_bump_43",
+    "rl_fuzzy_random_42",
+    "rl_baseline_bump_44",
+    "rl_baseline_sinusoidal_42",
+    "rl_fuzzy_sinusoidal_44",
+    "rl_fuzzy_random_44",
+    "rl_fuzzy_sinusoidal_42",
+    "rl_baseline_sinusoidal_44",
+    "rl_fuzzy_random_43",
+    "rl_baseline_random_44",
+    "rl_baseline_pothole_42",
+    "rl_fuzzy_sinusoidal_43",
+    "rl_baseline_pothole_43",
+    "rl_fuzzy_bump_42",
+    "rl_fuzzy_bump_44",
+    "rl_baseline_bump_43",
+    "rl_baseline_pothole_44",
+    "rl_baseline_sinusoidal_43"
+  ]
+}
